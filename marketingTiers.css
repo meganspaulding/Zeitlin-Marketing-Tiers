@@ -1,0 +1,95 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: "futura-pt",sans-serif;
+}
+
+#logo{
+	width: 200px;
+	display: block;
+	margin: auto;
+	margin-bottom: 20px;
+}
+
+#title-header{
+  font-family: "futura-pt-bold",sans-serif;
+  font-size: 3em;
+  letter-spacing: 0.1em;
+  text-align: center;
+  color: #860038;
+  margin: 0px;
+}
+
+#title-subheader{
+  font-size: 2em;
+  text-align: center;
+  margin: 10px 0 0;
+}
+
+.header-container{
+	background-color: #f2f2f2;
+	margin: 0;
+  	padding: 65px 0;
+}
+
+
+.option-card{
+	width: 30%;
+	margin: 1.5%;
+	float: left;
+	text-align: center;
+	border: 1px solid #f2f2f2;
+	border-radius: 15%
+	padding: 30%;
+	height: 300px;
+	min-width: 250px;
+
+}
+
+#card-container{
+	max-width: 900px;
+	margin: 30px auto;
+}
+
+.tier-inclusions{
+	list-style: none;
+	padding-left: 0;
+	height: 80px;
+	margin-bottom: 30px;
+}
+
+
+.option-title{
+	font-size: 1.5em;
+	margin: 10% 0 0;
+}
+
+.option-price{
+	font-size: inherit;
+	color: #860038;
+	margin: 5px 0 0;
+}
+
+.value{
+	color: #d0d0d0;
+	margin-top: 5px;
+}
+
+.option-btn{
+	border: 1px solid #860038;
+	background-color: white;
+	padding: 10px 30px;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	text-decoration: none;
+	color: black;
+	font-size: inherit;
+}
+
+.option-btn:hover{
+	background-color: #860038;
+	color: white;
+	cursor: pointer;
+	text-decoration: none;
+	font-size: inherit;
+}
